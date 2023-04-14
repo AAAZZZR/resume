@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Rudy from "../assets/Rudy.png"
+import {Link} from "react-scroll"
 
 const Home = () => {
   return (
@@ -19,13 +20,13 @@ const Home = () => {
             I have 2 years experience in crypto industry including Analysist and operator
             Clicking the button below to download my resume
           </p>
-          <button className=' group text-white w-fit px-6 my-2 flex items-center rounded-r-md bg-gradient-to-r from-cyan-800 to-purple-400 '>
+          <Link to="project" smooth duration={500} className=' group text-white w-fit px-6 my-2 flex items-center cursor-pointer rounded-r-md bg-gradient-to-r from-cyan-800 to-purple-400 '>
             Portfolio
             <span className='group-hover:rotate-90 duration-300'>
               <AiOutlineArrowRight size={25} 
               className="ml-1"/>
             </span>
-          </button>
+          </Link>
         </div>
 
           <div>
