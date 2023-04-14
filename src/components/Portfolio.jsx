@@ -9,7 +9,7 @@ const Portfolio = () => {
                 <p className='py-6'>Check out my work right here</p>
             </div>
             <div>
-                <img/>
+                
                 <div>
                     <button>Demo</button>
                     <button>Code</button>
