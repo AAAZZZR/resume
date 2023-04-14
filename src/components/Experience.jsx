@@ -1,7 +1,7 @@
 import React from 'react'
 
-import css from '../assets/css.png'
-// import javascript from '../assets/javascript.png'
+//import css from '../assets/css.png'
+import javascript from '../assets/javascript.png'
 // import github from '../assets/github.png'
 import hardhat from '../assets/hardhat.png'
 import react from '../assets/react.png'
