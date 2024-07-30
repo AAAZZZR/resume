@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaTwitter} from 'react-icons/fa'
+import { FaGithub, FaTwitter,FaKaggle} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -45,9 +45,20 @@ const SocialLinks = () => {
                     Resume<BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "./assets/resume.pdf",
+            href: "./assets/My_resume.pdf",
+            bg_style: "bg-blue-200",
+            
+        },
+        {
+            id: 5,
+            child: (
+                <>
+                    Kaggle<FaKaggle size={30} />
+                </>
+            ),
+            href: "https://www.kaggle.com/bighammerzz",
             bg_style: "bg-purple-200",
-            download: true
+            
         }
     ]
     return (

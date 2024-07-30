@@ -13,11 +13,12 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
           <h2 
             className='text-4xl sm:text-7xl font-bold text-white'>
-            I'm a junior crypto developers 
+            I'm a Data Analysist/Scientist
           </h2>
 
           <p className='text-black py-5 max-w-md'>
-            I have 2 years experience in crypto industry including Analysist and operator
+            Currently, I'm studying in UQ for master of Data Science. 
+            Previously I had 2 years experience in crypto industry including Analysist and operator
             Clicking the button below to download my resume
           </p>
           <Link to="project" smooth duration={500} className=' group text-white w-fit px-6 my-2 flex items-center cursor-pointer rounded-r-md bg-gradient-to-r from-cyan-800 to-purple-400 '>

@@ -29,6 +29,7 @@ const about = () => {
         },
 
         ]
+
     return (
         <div name="about" className='w-full h-full bg-gradient-to-b from-yellow-500 to-lime-400 text-white'>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

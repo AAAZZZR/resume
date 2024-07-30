@@ -8,9 +8,23 @@ import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import solidity from '../assets/solidity.png'
 import etherjs from '../assets/etherjs.png'
+import pytorch from "../assets/pytorch.png"
+import sklearn from "../assets/sklearn.png"
 
 const Experience = () => {
     const techs = [
+        {
+            id: 9,
+            src: sklearn,
+            title: "Sklearn",
+            style: "shadow-blue-500"
+        },
+        {
+            id: 8,
+            src: pytorch,
+            title: "Pytorch",
+            style: "shadow-red-500"
+        },
         {
             id: 1,
             src: solidity,
@@ -29,12 +43,6 @@ const Experience = () => {
             title: "Hardhat",
             style: "shadow-yellow-300"
         },
-        // {
-        //     id: 4,
-        //     src: github,
-        //     title: "Github",
-        //     style: "shadow-slate-400"
-        // },
         {
             id: 5,
             src: react,
@@ -58,7 +66,7 @@ const Experience = () => {
         <div name="skills" className='bg-gradient-to-b from-cyan-300 to-fuchsia-500 w-full h-full'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                 <div>
-                    <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
+                    <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Skills</p>
                     <p className='py-6'>These are technologies I've worked with</p>
                 </div>
 
