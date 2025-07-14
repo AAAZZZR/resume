@@ -17,7 +17,7 @@ const Portfolio = () => {
             id: 2,
             title: "Human anatomy interactive dashboard",
             description: ["A course project cooperate with physio coach to build an interactive dashboard for coach recording and tracking the progress of their clients.",
-                "1. Use SVG to build the human body anatomy interface.",
+                "1. Created a human anatomy visualization through SVG-based rendering.",
                 "2. Integrate with Fhirbase to store the patient's data.",
                 "3. Integrate with openAI if further analysis is needed."
             ],
@@ -26,24 +26,24 @@ const Portfolio = () => {
                 {
             id: 3,
             title: "Capstone project - electricity price prediction in Queensland",
-            description: ["1. Use request and BeautifulSoup to scrape the data from AEMO.",
-                "2. Use gradient boosting tree to predict the electricity prices."
+            description: ["1.  Collected electricity price data from AEMO using requests and BeautifulSoup.",
+                "2. Applied Gradient Boosting Trees to model and predict electricity prices."
             ],
             link: "https://github.com/AAAZZZR/Capstone_UQ" // Replace with your actual URL
         },
         {
             id: 4,
             title: "Cloud Computing project - Dating app",
-            description: ["1.Packaging the entire project using Docker allows for rapid deployment of multiple instances in a distributed manner.",
-                "2. The backend is primarily built with Flask, using PostgreSQL for customer and activity management data, and MongoDB for chatroom data"
+            description: ["1.Packaging the entire project by Docker allowing for rapid deployment of multiple instances in a distributed manner.",
+                "2. The backend is primarily built with Flask, with PostgreSQL for customer and activity management data, and MongoDB for chatroom data"
             ],
             link: "https://github.com/AAAZZZR/Dating_app_project" // Replace with your actual URL
         },
                 {
             id: 5,
             title: "Local RAG assistance",
-            description: ["1.Use lanchain to extract data from PDF and use chorma as vector database.",
-                "2. UIse ollama adn opensource LLM to build a local RAG assistance.",
+            description: ["1.Building local RAG by using lanchain to extract PDF dat and chorma as vector database.",
+                "2. Integrate with ollama and opensource LLM.",
             ],
             link: "https://github.com/AAAZZZR/RAG_assistance_v1/tree/main" // Replace with your actual URL
         },
