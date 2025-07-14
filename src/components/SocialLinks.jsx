@@ -5,17 +5,17 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
     const links = [
-        {
-            id: 1,
-            child: (
-                <>
-                    Twitter<FaTwitter size={30} />
-                </>
-            ),
-            href: "https://twitter.com/OoAaazz",
-            text_style: "text-blue-400",
-            bg_style:" bg-cyan-50"
-        },
+        // {
+        //     id: 1,
+        //     child: (
+        //         <>
+        //             Twitter<FaTwitter size={30} />
+        //         </>
+        //     ),
+        //     href: "https://twitter.com/OoAaazz",
+        //     text_style: "text-blue-400",
+        //     bg_style:" bg-cyan-50"
+        // },
         {
             id: 2,
             child: (
@@ -45,7 +45,7 @@ const SocialLinks = () => {
                     Resume<BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "./assets/My_resume.pdf",
+            href: "./assets/Rudy_Chen_resume.pdf",
             bg_style: "bg-blue-200",
             
         },

@@ -1,19 +1,21 @@
 import NavBar from "./components/NavBar";
 import Home from './components/Home';
 import SocialLinks from "./components/SocialLinks";
-import About from "./components/About";
+import WorkExperience from "./components/WorkExperience";
 import Portfolio from "./components/Portfolio";
-import Experience from "./components/Experience";
+import DataExperience from "./components/DataExperience";
+import Skills from "./components/Skill";
 
 function App() {
   return (
     <div>
       <NavBar></NavBar>
       <Home></Home>
-      <About></About>
+      <DataExperience></DataExperience>
       <Portfolio></Portfolio>
-      <Experience></Experience>
+      <Skills></Skills>
       <SocialLinks></SocialLinks>
+      <WorkExperience></WorkExperience>
     </div>
   );
 }

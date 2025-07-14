@@ -3,16 +3,48 @@ import React from 'react'
 //import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 // import github from '../assets/github.png'
-import hardhat from '../assets/hardhat.png'
+
 import react from '../assets/react.png'
-import tailwind from '../assets/tailwind.png'
-import solidity from '../assets/solidity.png'
-import etherjs from '../assets/etherjs.png'
+import aws from '../assets/AWS.png'
+import docker from '../assets/docker.png'
+import Databrick from '../assets/Databricks.png'
+import postgressql from '../assets/postgres.png'
 import pytorch from "../assets/pytorch.png"
 import sklearn from "../assets/sklearn.png"
 
-const Experience = () => {
+const Skills = () => {
     const techs = [
+        {
+            id: 1,
+            src: aws,
+            title: "AWS",
+            style: "shadow-blue-500"
+        },
+        {
+            id: 2,
+            src: docker,
+            title: "docker",
+            style: "shadow-blue-500"
+        },
+        {
+            id: 3,
+            src: Databrick,
+            title: "Databrick",
+            style: "shadow-blue-500"
+        },
+        {
+            id: 4,
+            src: postgressql,
+            title: "SQL",
+            style: "shadow-blue-500"
+        },
+        {
+            id: 7,
+            src: javascript,
+            title: "Javascript",
+            style: "shadow-amber-400"
+        },
+
         {
             id: 9,
             src: sklearn,
@@ -25,42 +57,14 @@ const Experience = () => {
             title: "Pytorch",
             style: "shadow-red-500"
         },
-        {
-            id: 1,
-            src: solidity,
-            title: "Solidity",
-            style: "shadow-zinc-500"
-        },
-        {
-            id: 2,
-            src: etherjs,
-            title: "Etherjs",
-            style: "shadow-blue-800"
-        },
-        {
-            id: 3,
-            src: hardhat,
-            title: "Hardhat",
-            style: "shadow-yellow-300"
-        },
+
         {
             id: 5,
             src: react,
             title: "React",
             style: "shadow-cyan-400"
         },
-        {
-            id: 6,
-            src: tailwind,
-            title: "Tailwind",
-            style: "shadow-green-400"
-        },
-        {
-            id: 7,
-            src: javascript,
-            title: "Javascript",
-            style: "shadow-amber-400"
-        },
+
     ]
     return (
         <div name="skills" className='bg-gradient-to-b from-cyan-300 to-fuchsia-500 w-full h-full'>
@@ -86,4 +90,4 @@ const Experience = () => {
     )
 }
 
-export default Experience
+export default Skills

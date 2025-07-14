@@ -1,6 +1,6 @@
 import React from 'react'
 
-const about = () => {
+const WorkExperience = () => {
     const Works = [
         {
             id:1,
@@ -59,4 +59,4 @@ const about = () => {
     )
 }
 
-export default about
+export default WorkExperience

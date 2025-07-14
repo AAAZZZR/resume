@@ -17,9 +17,8 @@ const Home = () => {
           </h2>
 
           <p className='text-black py-5 max-w-md'>
-            Currently, I'm studying in UQ for master of Data Science. 
-            Previously I had 2 years experience in crypto industry including Analysist and operator
-            Clicking the button below to download my resume
+            A New graduate data science student from the University of Queensland.
+            I have a strong foundation in data analysis, machine learning, and statistical modeling.
           </p>
           <Link to="project" smooth duration={500} className=' group text-white w-fit px-6 my-2 flex items-center cursor-pointer rounded-r-md bg-gradient-to-r from-cyan-800 to-purple-400 '>
             Portfolio
